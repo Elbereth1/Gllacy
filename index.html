@@ -93,7 +93,7 @@
             Вход
           </a>
           <div class="nav-profile-wrapper nav-list-wrapper">
-            <h3 class="third-title profile-title">Личный кабинет</h3>
+            <span class="third-title profile-title">Личный кабинет</span>
             <form class="nav-profile-form" method="post" action="#">
               <label class="visually-hidden" for="nav-profile-email">e-mail</label>
               <input class="field nav-profile-field" type="email" name="nav-profile-email" id="nav-profile-email"
@@ -125,7 +125,7 @@
             </svg>
             Пусто</a>
           <div class="nav-cart-wrapper nav-list-wrapper">
-            <h3 class="third-title">Ваша корзина пока пуста</h3>
+            <span class="third-title">Ваша корзина пока пуста</span>
           </div>
         </li>
       </ul>
@@ -257,8 +257,8 @@
       <ul class="popular-list">
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-1.png" width="168" height="168" alt="Мороженое">
-            <h4 class="item-name">Малинка</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-1.jpg" width="168" height="168" alt="Мороженое">
+            <h3 class="item-name">Малинка</h3>
             <p class="item-description">Сливочное мороженое с малиновым джемом</p>
           </a>
           <div class="item-wrapper">
@@ -274,8 +274,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-2.png" width="168" height="168" alt="Мороженое">
-            <h4 class="item-name">Фисташка</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-2.jpg" width="168" height="168" alt="Мороженое">
+            <h3 class="item-name">Фисташка</h3>
             <p class="item-description">Фисташковый пломбир с кусочками шоколада</p>
           </a>
           <div class="item-wrapper">
@@ -291,8 +291,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-3.png" width="168" height="168" alt="Мороженое">
-            <h4 class="item-name">Черника</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-3.jpg" width="168" height="168" alt="Мороженое">
+            <h3 class="item-name">Черника</h3>
             <p class="item-description">Крем-брюле с черничным джемом</p>
           </a>
           <div class="item-wrapper">
@@ -308,8 +308,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-4.png" width="168" height="168" alt="Мороженое">
-            <h4 class="item-name">Бабл-гам</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-4.jpg" width="168" height="168" alt="Мороженое">
+            <h3 class="item-name">Бабл-гам</h3>
             <p class="item-description">Ванильный пломбир со сладкой посыпкой</p>
           </a>
           <div class="item-wrapper">
@@ -357,7 +357,7 @@
         </a>
       </article>
       <section class="subscribe">
-        <h2 class="visually-hidden">Подписка</h2>
+        <h3 class="visually-hidden">Подписка</h3>
         <div class="subscribe-wrapper">
           <p class="text subscribe-text">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого
             вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
@@ -400,7 +400,7 @@
         <p class="appointment-form-address">
           <label class="form-label" for="appointment-address">Адрес</label>
           <span class="tooltip">
-            <button class="tooltip-toggle">
+            <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
               <svg class="tooltip-img" width="13" height="13" viewBox="0 0 14 14" fill="none"
                    xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd"
                                                             d="M7 1.33a5.67 5.67 0 1 0 0 11.34A5.67 5.67 0 0 0 7 1.33ZM0 7a7 7 0 1 1 14 0A7 7 0 0 1 0 7Zm7-.67c.37 0 .67.3.67.67v2.53a.67.67 0 1 1-1.34 0V7c0-.37.3-.67.67-.67ZM7 3.8a.67.67 0 1 0 0 1.33.67.67 0 0 0 0-1.33Z"/></svg>
@@ -480,6 +480,7 @@
     <ul class="footer-about-list">
       <li class="footer-about-item">
         <a class="footer-about-link" href="https://htmlacademy.ru/">
+          <span class="visually-hidden">Ссылка на сайт Академии</span>
           <svg class="about-link" width="93" height="27" viewBox="0 0 93 27" fill="none"
                xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#a)" fill="#2D3440">

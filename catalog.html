@@ -72,7 +72,7 @@
             <svg class="navigation-user-icon" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 .67C8 .3 8.3 0 8.67 0h2.66a2 2 0 0 1 2 2v9.33a2 2 0 0 1-2 2H8.67a.67.67 0 1 1 0-1.33h2.66a.67.67 0 0 0 .67-.67V2a.67.67 0 0 0-.67-.67H8.67A.67.67 0 0 1 8 .67Zm-3.14 2.2a.67.67 0 0 1 .94 0l3.33 3.32a.67.67 0 0 1 .2.48.66.66 0 0 1-.2.47L5.8 10.47a.67.67 0 1 1-.94-.94l2.2-2.2H.66A.67.67 0 1 1 .67 6h6.4l-2.2-2.2a.67.67 0 0 1 0-.94Z" fill="#2D3440"/></svg>
             Вход</a>
           <div class="nav-profile-wrapper nav-list-wrapper">
-            <h3 class="third-title profile-title">Личный кабинет</h3>
+            <h2 class="third-title profile-title">Личный кабинет</h2>
             <form class="nav-profile-form" method="post" action="#">
               <label class="visually-hidden" for="nav-profile-email">e-mail</label>
               <input class="field nav-profile-field" type="email" name="nav-profile-email" id="nav-profile-email" placeholder="email@example.com" required>
@@ -98,7 +98,7 @@
             <svg class="navigation-user-icon" aria-hidden="true" focusable="false" width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.17.25a.67.67 0 1 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46V8.8l.93-4.86a.67.67 0 0 0-.66-.8h-9.3L4.14.8a.67.67 0 0 0-.66-.54H1.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H6.18a.5.5 0 0 1-.49-.4ZM4.56 12.5a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z" fill="#2D3440"/></svg>
             2 товара</a>
           <div class="nav-cart-wrapper catalog-full-cart">
-            <h3 class="third-title cart-title">Корзина</h3>
+            <h2 class="third-title cart-title">Корзина</h2>
             <ul class="nav-cart-list">
               <li class="nav-cart-item">
                 <a class="nav-cart-link">
@@ -120,7 +120,7 @@
                   <img class="nav-cart-img" src="./images/catalog/product-mini-2.png" width="46" height="46" alt="Мороженое">
                 </a>
                 <div class="nav-cart-name">
-                  <h5 class="nav-cart-title nav-cart-name-title">Бабл-гам</h5>
+                  <span class="nav-cart-title nav-cart-name-title">Бабл-гам</span>
                   <p class="cart-text">1,5 кг х 320 ₽</p>
                 </div>
                   <span class="nav-cart-title cart-price">480 ₽</span>
@@ -133,7 +133,7 @@
             </ul>
             <div class="cart-info-wrapper">
               <button class="button subscribe-button cart-subscribe-button" type="submit">Оформить заказ</button>
-              <h5 class="nav-cart-title">Итого: 790 ₽</h5>
+              <span class="nav-cart-title">Итого: 790 ₽</span>
             </div>
           </div>
         </li>
@@ -280,11 +280,12 @@
     </section>
 
     <section class="catalog">
+      <h2 class="visually-hidden">Каталог</h2>
       <ol class="catalog-list">
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-1.png" width="168" height="168" alt="Сливочное мороженое с малиновым джемом">
-          <h4 class="item-name">Малинка</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-1.jpg" width="168" height="168" alt="Сливочное мороженое с малиновым джемом">
+          <h3 class="item-name">Малинка</h3>
           <p class="item-description">Сливочное мороженое с малиновым джемом</p>
           </a>
           <div class="item-wrapper">
@@ -296,8 +297,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-2.png" width="168" height="168" alt="Фисташковый пломбир">
-          <h4 class="item-name">Фисташка</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-2.jpg" width="168" height="168" alt="Фисташковый пломбир">
+          <h3 class="item-name">Фисташка</h3>
           <p class="item-description">Фисташковый пломбир с кусочками шоколада</p>
           </a>
           <div class="item-wrapper">
@@ -309,8 +310,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-3.png" width="168" height="168" alt="Крем-брюле с черничным джемом">
-          <h4 class="item-name">Черника</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-3.jpg" width="168" height="168" alt="Крем-брюле с черничным джемом">
+          <h3 class="item-name">Черника</h3>
           <p class="item-description">Крем-брюле с черничным джемом</p>
           </a>
           <div class="item-wrapper">
@@ -322,8 +323,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-4.png" width="168" height="168" alt="Ванильный пломбир">
-          <h4 class="item-name">Бабл-гам</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-4.jpg" width="168" height="168" alt="Ванильный пломбир">
+          <h3 class="item-name">Бабл-гам</h3>
           <p class="item-description">Ванильный пломбир со сладкой посыпкой</p>
           </a>
           <div class="item-wrapper">
@@ -335,8 +336,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-5.png" width="168" height="168" alt="Сливочное мороженое с ежевичным джемом">
-          <h4 class="item-name">Ежевика</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-5.jpg" width="168" height="168" alt="Сливочное мороженое с ежевичным джемом">
+          <h3 class="item-name">Ежевика</h3>
           <p class="item-description">Сливочное мороженое с ежевичным джемом</p>
           </a>
           <div class="item-wrapper">
@@ -348,8 +349,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-6.png" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
-          <h4 class="item-name">Банан</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-6.jpg" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
+          <h3 class="item-name">Банан</h3>
           <p class="item-description">Сливочный пломбир с банановым вкусом</p>
           </a>
           <div class="item-wrapper">
@@ -361,8 +362,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-7.png" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
-            <h4 class="item-name">Шоколадка</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-7.jpg" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
+            <h3 class="item-name">Шоколадка</h3>
             <p class="item-description">Классический шоколадный пломбир</p>
           </a>
           <div class="item-wrapper">
@@ -374,8 +375,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-8.png" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
-            <h4 class="item-name">Клубничка</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-8.jpg" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
+            <h3 class="item-name">Клубничка</h3>
             <p class="item-description">Сливочный пломбир с клубничным вкусом</p>
           </a>
           <div class="item-wrapper">
@@ -387,8 +388,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-9.png" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
-            <h4 class="item-name">Лимон</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-9.jpg" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
+            <h3 class="item-name">Лимон</h3>
             <p class="item-description">Освежающий лимонный сорбет</p>
           </a>
           <div class="item-wrapper">
@@ -400,8 +401,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-10.png" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
-            <h4 class="item-name">Ментол</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-10.jpg" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
+            <h3 class="item-name">Ментол</h3>
             <p class="item-description">Сливочный пломбир с ментоловым сиропом</p>
           </a>
           <div class="item-wrapper">
@@ -413,8 +414,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-11.png" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
-            <h4 class="item-name">Орешек</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-11.jpg" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
+            <h3 class="item-name">Орешек</h3>
             <p class="item-description">Фисташковый пломбир с шоколадным сиропом</p>
           </a>
           <div class="item-wrapper">
@@ -426,8 +427,8 @@
         </li>
         <li class="catalog-item">
           <a class="catalog-link" href="#">
-            <img class="catalog-item-img" src="./images/catalog/product-12.png" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
-            <h4 class="item-name">Крем-брюле</h4>
+            <img class="catalog-item-img" src="./images/catalog/product-12.jpg" width="168" height="168" alt="Сливочный пломбир с банановым вкусом">
+            <h3 class="item-name">Крем-брюле</h3>
             <p class="item-description">Классическое<br>крем-брюле</p>
           </a>
           <div class="item-wrapper">
@@ -480,15 +481,15 @@
         </a>
       </li>
       <li class="social-item">
-        <span class="visually-hidden">Фейсбук</span>
         <a class="social-link fb-link" href="https://www.facebook.com/htmlacademy">
           <svg class="social-link-icon" width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-6.38.6h-.95V12H7.14V8.6H6V7h1.14V5.88C7.14 4.66 7.88 4 8.91 4c.5 0 .97.04 1.09.06V5.4h-.57c-.76 0-.76.39-.76.8V7H10l-.38 1.6Z"/></svg>
+          <span class="visually-hidden">Фейсбук</span>
         </a>
       </li>
       <li class="social-item">
-        <span class="visually-hidden">Инстаграм</span>
         <a class="social-link insta-link" href="https://www.instagram.com/htmlacademy/">
           <svg class="social-link-icon" width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.65 4.02C9.22 4 9.09 4 8 4c-1.09 0-1.22 0-1.65.02-.43.02-.71.1-.97.19-.27.1-.5.26-.7.46-.21.2-.37.44-.47.71-.1.26-.17.54-.19.97C4 6.78 4 6.91 4 8c0 1.09 0 1.22.02 1.65.02.42.1.72.19.97.1.27.26.5.46.7.2.21.44.37.71.47.26.1.55.17.97.19.43.02.56.02 1.65.02 1.09 0 1.22 0 1.65-.02.42-.02.72-.1.97-.19.27-.1.5-.26.7-.46.21-.2.37-.44.47-.71.1-.26.17-.55.19-.97C12 9.22 12 9.09 12 8c0-1.09 0-1.22-.02-1.65a2.95 2.95 0 0 0-.19-.97c-.1-.27-.26-.5-.46-.7a1.95 1.95 0 0 0-.71-.47c-.26-.1-.55-.17-.97-.19ZM6.59 6.6A2 2 0 1 1 9.4 9.4 2 2 0 0 1 6.6 6.6Zm3.86-1.04a.5.5 0 1 1-.7.7.5.5 0 0 1 .7-.7Zm-1.6 1.6a1.2 1.2 0 1 0-1.7 1.7 1.2 1.2 0 0 0 1.7-1.7Z"/></svg>
+          <span class="visually-hidden">Инстаграм</span>
         </a>
       </li>
     </ul>
@@ -511,6 +512,7 @@
       <li class="footer-about-item">
         <a class="footer-about-link" href="https://htmlacademy.ru/">
           <svg class="about-link" width="93" height="27" viewBox="0 0 93 27" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)" fill="#2D3440"><path d="M0 10.42v2.08h1.99v-2.08H0ZM9.42 3.66c-1.26 0-2.28.58-2.92 1.4h-.07V0H4.79v12.5h1.64V8.21c0-1.72 1.07-2.95 2.64-2.95 1.49 0 2.35 1.11 2.35 2.6v4.64h1.65V7.57c0-2.38-1.47-3.9-3.65-3.9ZM21.53 3.9h-3.9V.88H16V3.9h-1.55v1.6h1.55v4.84c0 1.39.78 2.15 2.18 2.15h3.36v-1.61H18.5c-.55 0-.86-.32-.86-.86V5.5h3.89V3.9ZM33.25 3.68c-1.3 0-2.31.64-2.86 1.67h-.06a2.9 2.9 0 0 0-2.71-1.67c-1.14 0-2 .6-2.52 1.46h-.07V3.9h-1.58v8.59h1.65V8.09c0-1.61.84-2.8 2.12-2.83 1.21-.03 1.92.83 1.92 2.14v5.1h1.64V7.95c0-1.93 1.14-2.69 2.13-2.69 1.2 0 1.9.83 1.9 2.14v5.1h1.64V7.22c0-2.08-1.17-3.54-3.2-3.54ZM38.68 10.28c0 1.4.8 2.22 2.26 2.22h1.63v-1.6h-1.39c-.55 0-.86-.31-.86-.85V0h-1.64v10.28ZM23.38 15.94h-.07a3.75 3.75 0 0 0-3.07-1.49c-2.54-.03-4.36 1.85-4.36 4.5 0 2.68 1.85 4.56 4.34 4.53a3.66 3.66 0 0 0 3.09-1.57h.07v1.33H25v-8.55h-1.62v1.25Zm-2.91 5.95a2.83 2.83 0 0 1-2.95-2.93 2.83 2.83 0 0 1 2.95-2.94c1.75 0 2.89 1.31 2.89 2.94 0 1.6-1.14 2.93-2.9 2.93ZM35.75 17.8a4.28 4.28 0 0 0-4.36-3.35 4.37 4.37 0 0 0-4.54 4.5 4.39 4.39 0 0 0 4.54 4.53 4.3 4.3 0 0 0 4.36-3.4h-1.71a2.68 2.68 0 0 1-2.63 1.83 2.84 2.84 0 0 1-2.91-2.95 2.82 2.82 0 0 1 2.9-2.94 2.7 2.7 0 0 1 2.64 1.78h1.71ZM44.55 15.94h-.07a3.75 3.75 0 0 0-3.07-1.49c-2.54-.03-4.36 1.85-4.36 4.5 0 2.68 1.85 4.56 4.34 4.53a3.66 3.66 0 0 0 3.09-1.57h.07v1.33h1.62v-8.55h-1.62v1.25Zm-2.91 5.95a2.83 2.83 0 0 1-2.95-2.93 2.83 2.83 0 0 1 2.95-2.94c1.75 0 2.89 1.31 2.89 2.94 0 1.6-1.14 2.93-2.9 2.93ZM55.52 16.02h-.07a3.73 3.73 0 0 0-3.08-1.57c-2.5-.03-4.35 1.85-4.35 4.52 0 2.66 1.82 4.54 4.37 4.5A3.74 3.74 0 0 0 55.43 22h.09v1.25h1.63V10.8h-1.63v5.21Zm-2.9 5.89a2.83 2.83 0 0 1-2.95-2.94 2.83 2.83 0 0 1 2.94-2.93c1.75 0 2.9 1.33 2.9 2.93a2.82 2.82 0 0 1-2.9 2.94ZM63.34 14.45a4.36 4.36 0 0 0-4.43 4.52c0 2.44 1.7 4.5 4.47 4.5 2 0 3.62-1.08 4.19-2.9h-1.71c-.39.82-1.3 1.34-2.41 1.34-1.56 0-2.67-1.04-2.79-2.37h7.08c.23-2.84-1.56-5.09-4.4-5.09Zm-.03 1.57a2.6 2.6 0 0 1 2.65 2.07H60.7a2.57 2.57 0 0 1 2.61-2.07ZM79.41 14.47c-1.31 0-2.32.64-2.87 1.66h-.05c-.5-1-1.44-1.66-2.72-1.66-1.14 0-2.01.6-2.53 1.45h-.07v-1.23H69.6v8.55h1.65v-4.39c0-1.6.85-2.78 2.13-2.81 1.21-.03 1.92.83 1.92 2.12v5.08h1.65v-4.52c0-1.92 1.14-2.68 2.13-2.68 1.2 0 1.9.83 1.9 2.12v5.08h1.65v-5.25c0-2.07-1.18-3.52-3.2-3.52ZM88.5 21.87l-2.94-7.18h-1.82l3.92 9.36-.02.03c-.28.71-.59.97-1.35.97h-2.03v1.64h2.03c1.49 0 2.28-.67 2.84-2.12l3.77-9.88h-1.68l-2.72 7.18Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h93v26.71H0z"/></clipPath></defs></svg>
+          <span class="visually-hidden">Ссылка на сайт Академии</span>
         </a>
       </li>
       <li class="footer-about-item">
